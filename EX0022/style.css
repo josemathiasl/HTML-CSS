@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Jibriel;
+    src: url('Jibriel Small Caps.otf') format('opentype');
+}
+
+nav {
+    width: 1500px;
+    background-color: #ffa01cd7;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 3px 2px rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+}
+header > h1 {
+    font-family: 'Jibriel';
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 3em;
+    margin: 40px;
+}
+nav > a:hover {
+
+color: rgb(0, 0, 0);
+}
+
+nav > a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font: bolder 1.5em arial, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+article> h2{
+    text-align: center;
+    font: normal bold 2em serif;
+    color: #722920  ;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    font-weight: bold;
+}
+
+footer > p {
+    margin: 0px;
+    font: bold 1em ;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #0A0A0A,#722920,#7F2C26,#0A0A0A);
+}
+
+

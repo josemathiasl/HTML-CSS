@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div {
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+    font: 900 16px arial, sans-serif;
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    
+
+}
+
+div:hover > h1 {
+    display: none;
+}

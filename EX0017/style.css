@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+body{
+    font: normal 1em 'migzat', sans-serif;
+    background-image: linear-gradient(to bottom, #0A0A0A,#722920, #7F2C26, #461413, #0A0A0A);
+    height: 500em;
+
+}
+
+main {
+    background-color: white;
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+p {
+    text-align: justify;
+    width: 70%;
+}

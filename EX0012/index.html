@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicast</title>
+</head>
+<body>
+    <h1>Uso de imagens dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes, ou simplesmente aumente ou diminua o zoom do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/media.jpg" type="image/jpg">
+        <img src="/Imagens/grande.jpg" alt="img grande flex">
+    </picture>
+
+    <h2>Reproduzindo audios</h2>
+    <p>Vamos aprender a reproduzir audios usando o HTML5</p>
+    <audio src="/media/zittiebuoni.mp3" controls></audio>
+
+    <h2>Este video esta hospedado em meu servidor</h2>
+    <video src="/media/ryukppap.mp4" width="500" controls></video>
+
+    <h2>Inserindo videos do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qKl82SFf7ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
