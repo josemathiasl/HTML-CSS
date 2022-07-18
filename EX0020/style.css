@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 div {
-    background-color: brown;
+    background-color: rgb(42, 50, 165);
     text-align: center;
     color: aliceblue;
     font: 900 16px arial, sans-serif;
